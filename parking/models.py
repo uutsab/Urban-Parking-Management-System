@@ -188,3 +188,4 @@ class ParkingLot:
         if plate not in self._active:
             raise ValueError("No active ticket for this plate.")
         return self._active.pop(plate)
+        #end
